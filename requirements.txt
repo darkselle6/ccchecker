@@ -1,0 +1,7 @@
+aiohttp
+git+https://github.com/eternnoir/pyTelegramBotAPI.git
+bs4
+aioredis
+motor
+loguru
+pymongo[srv]
