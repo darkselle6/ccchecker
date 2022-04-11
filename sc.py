@@ -172,6 +172,7 @@ async def zc(message):
 <b>TOOK:</b> <code>{toc - tic:0.4f}</code>(s)
 <b>CHKBY</b>➟ <a href="tg://user?id={message.from_user.id}">{message.from_user.first_name}</a>
 """,message.chat.id, edit2.id,parse_mode="HTML")
+<b>BOT BY</b>➟ @SHADOWDEMIN
          else:
              await bot.edit_message_text(f"""
 <b>CC</b>➟ <code>{cc}</code>
