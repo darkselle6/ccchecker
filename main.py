@@ -16,6 +16,6 @@ async def send_welcome(message):
     first = await bot.reply_to(message, """\
 Starting Bot\
 """)
-    await bot.edit_message_text("Heya How are you ??\nWant to Check ccs?? Send /cmds for more bot by @shadowdemin",message.chat.id,first.id,parse_mode="HTML")
+    await bot.edit_message_text("Heya How are you ??\nWant to Check ccs?? Send /cmds for more ib @shadowdemin",message.chat.id,first.id,parse_mode="HTML")
 
 #asyncio.run(bot.polling())
